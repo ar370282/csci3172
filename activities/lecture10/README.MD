@@ -67,7 +67,7 @@ aB@3bc_!5-Ux - Passed
 
 ## Reflection
 Q.  How did using a tool help you (or not) in this process? What challenges did you face while completing this activity? 
-Using Regexr.com helped me visualize and test my expressions quickly. I could instantly see which test cases passed or failed and adjust the patterns instantly and accordingly.s
+Using Regexr.com helped me visualize and test my expressions quickly. I could instantly see which test cases passed or failed and adjust the patterns instantly and accordingly.
 
 The main challenge was balancing strict validation while also maintaining flexibility like allowing middle names, different domain styles, and various password characters was trucky and took some iterations. Overall, using an online tool made it easier to debug and understand the logic behind each regex.
 
