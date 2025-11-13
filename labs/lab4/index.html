@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meme Generator App</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Create Your Own Meme</h2>
+      <p>Upload an image, add your text, and generate your meme</p>
+    </section>
+
+    <section class="meme-section">
+      <div class="upload-area">
+        <label for="imageUpload" class="upload-label">Upload Image</label>
+        <input type="file" id="imageUpload" accept="image/*" />
+      </div>
+
+      <div class="text-inputs">
+        <input type="text" id="topText" placeholder="Top text" />
+        <input type="text" id="bottomText" placeholder="Bottom text" />
+      </div>
+
+      <button id="generateBtn">Generate Meme</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by ARPIT JORELIA © 2025</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
